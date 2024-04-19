@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\ELCOT\Desktop\media query wb site\style.css">
+    <title>Tourism Website</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <h1 class="logo">EXPLORE</h1>
+        <nav class="nav-links">
+            <a href="#Home" class="active">Home</a>
+            <a href="#Tours">Tours</a>
+            <a href="#Explore">Explore</a>
+            <a href="#About">About</a>
+            <a class="ctn" href="#Contact">Contact</a>
+        </nav>
+        <img class="menu-btn" src="menu-btn.png" alt="">
+    </div>
+    <header>
+        <div class="header-content">
+            <h2>Explore the Colourful World</h2>
+            <div class="line"></div>
+            <h1>A Wonderful gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="tours" id="Tours">
+        <div class="title">
+            <h1>Upcoming events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="boat-river.jpg" height="270" width="360">
+                <h4>Boat Ride</h4>
+                <p>Set sail for a captivating experience with our exclusive boat ride offer! Book now and enjoy a complimentary glass of sparkling wine as you soak in the stunning views. Treat yourself to a 10% discount on your booking and create unforgettable memories on the water.</p>
+                <a href="https://www.google.com/search?q=boatrides&sca_esv=65b627a4699ea87d&sxsrf=ACQVn08bPfH6v5hc57rtaI75gFtUzIwHTw%3A1713445483760&ei=axohZsj_Lfj2seMP_um0uAg&ved=0ahUKEwiI4Zrr6cuFAxV4e2wGHf40DYcQ4dUDCBA&uact=5&oq=boatrides&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgBIglib2F0cmlkZXMyCxAAGIAEGJECGIoFMg4QABiABBiRAhiKBRiLAzIKEAAYgAQYChiLAzIHEAAYgAQYCjIKEAAYgAQYChiLAzIKEAAYgAQYChiLAzIKEAAYgAQYChiLAzIKEAAYgAQYChiLAzIKEAAYgAQYChiLAzIKEAAYgAQYChiLA0jeO1CbKVibKXABeAGQAQCYAbIBoAGyAaoBAzAuMbgBA8gBAPgBAZgCAqAC2wHCAgoQABiwAxjWBBhHwgIOEAAYgAQYsAMYkgMYigXCAhAQABiABBiwAxhDGMkDGIoFmAMAiAYBkAYKkgcDMS4xoAelBw&sclient=gws-wiz-serp" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="background.jpg" height="270" width="360" alt="">
+                <h4>Water Falls View</h4>
+                <p>Discover the magic of nature at our stunning waterfall viewing point! Immerse yourself in the awe-inspiring beauty of cascading waters, surrounded by lush greenery and vibrant wildlife. Book your visit now and receive a special discount on your entry ticket. Don't miss the chance to witness this natural wonder up close!</p>
+                <a href="https://en.wikipedia.org/wiki/Coutrallam_Falls" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore" id="Explore">
+       <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>  "Embark on a journey of a lifetime as you explore the world beyond your imagination. From vibrant cities to hidden gems, every destination offers a unique experience waiting to be discovered. Wander through bustling markets, traverse breathtaking landscapes, and immerse yourself in diverse cultures. Let your curiosity guide you as you uncover the mysteries and wonders the world has to offer. Start your adventure today and create unforgettable memories that will last a lifetime."</p>
+            <a href="#" class="ctn">Learn more</a>
+       </div>
+    </section>
+
+    
+    <section class="about" id="About">
+        <div class="about1">
+            <h2>About our Company</h2>
+             <p>"At our tourism company, we believe in creating exceptional travel experiences tailored to your desires. Whether you're looking for adventure, relaxation, or a taste of local culture, our team of experts is dedicated to planning and curating unforgettable journeys for you. With our commitment to excellence and personalized service, we strive to exceed your expectations and make your dream trip a reality. Let us take you on a journey you'll treasure forever."</p>
+        </div>
+    </section>
+
+    <section class="contect" id="Contact">
+        <h3>Register for Special Offers</h3>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Enter the Name">
+                <input type="text" placeholder="Email id">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Address"> <br>
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    <section class="footer">
+        <p>123 chennai-600001 | E-mail : Contact @Example.com</p>
+        <P>Copyright © 2012 - 2024 TermsFeed®. All rights reserved.</P>
+    </section>
+
+   
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
